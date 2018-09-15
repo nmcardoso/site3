@@ -11,10 +11,10 @@ script:
   - "gatsby build --prefix-paths"
 deploy:
   provider: pages
-  skip-clenaup: true
-  github-token: $GITHUB_TOKEN
-  local-dir: public
-  keep-history: true
+  skip_clenaup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  keep_history: true
   on:
     branch: master
 
