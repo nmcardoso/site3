@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "lts"
+cache:
+  directories:
+   - node_modules
+install:
+  - "npm i -g gatsby"
+  - "npm i"
+script:
+  - "gatsby build --prefix-paths"
+deploy:
+  provider: pages
+  skip-clenaup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: public
+  keep-history: true
+  on:
+    branch: master
+
