@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/nmcardoso/site3.svg?branch=master)](https://travis-ci.org/nmcardoso/site3)
+[![Build Status](https://travis-ci.com/nmcardoso/site3.svg?branch=master)](https://travis-ci.com/nmcardoso/site3)
