@@ -11,7 +11,7 @@ script:
   - "gatsby build --prefix-paths"
 deploy:
   provider: pages
-  skip_clenaup: true
+  skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: public
   on:
